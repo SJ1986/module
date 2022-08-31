@@ -1,0 +1,191 @@
+@function icon($iconName, $color: 555555) {
+  $iconList: (
+    iconError:
+      "%3Csvg xmlns='http://www.w3.org/2000/svg' width='98' height='122' viewBox='0 0 98 122'%3E%3Cg data-name='error 아이콘'%3E%3Cg data-name='다각형 1' style='fill:%23fff;stroke-linejoin:round'%3E%3Cpath d='M84.072 82.5H13.928a6.432 6.432 0 0 1-5.636-3.263 6.432 6.432 0 0 1 .022-6.512l35.071-60.123A6.438 6.438 0 0 1 49 9.377a6.438 6.438 0 0 1 5.615 3.225l35.071 60.123a6.432 6.432 0 0 1 .022 6.512 6.432 6.432 0 0 1-5.636 3.263z' style='stroke:none'/%3E%3Cpath d='M49 10.877a4.952 4.952 0 0 0-4.319 2.48L9.61 73.482a4.948 4.948 0 0 0-.016 5.01A4.948 4.948 0 0 0 13.928 81h70.144a4.948 4.948 0 0 0 4.335-2.51 4.947 4.947 0 0 0-.016-5.01L53.319 13.359A4.952 4.952 0 0 0 49 10.878m0-3c2.683 0 5.367 1.322 6.91 3.968L90.982 71.97C94.092 77.302 90.245 84 84.072 84H13.928c-6.174 0-10.021-6.698-6.91-12.031L42.09 11.846C43.633 9.2 46.317 7.877 49 7.877z' style='fill:%23#{$color};stroke:none'/%3E%3C/g%3E%3Ctext data-name='!' transform='translate(50 66)' style='font-size:38px;letter-spacing:-.05em;fill:%23#{$color};font-family:NotoSansCJKkr-Bold,Noto Sans CJK KR;font-weight:700'%3E%3Ctspan x='-7.03' y='0'%3E!%3C/tspan%3E%3C/text%3E%3Ctext transform='translate(48.997 114)' style='font-size:26px;fill:%23#{$color};font-family:NotoSansCJKkr-Bold,Noto Sans CJK KR;font-weight:700'%3E%3Ctspan x='-44.603' y='0'%3EERROR%3C/tspan%3E%3C/text%3E%3C/g%3E%3C/svg%3E%0A",
+    iconSerViceChk:
+      "%3Csvg xmlns='http://www.w3.org/2000/svg' width='125.859' height='114.63' viewBox='0 0 125.859 114.63'%3E%3Cg data-name='서비스점검 아이콘'%3E%3Cg data-name='그룹 85'%3E%3Cg data-name='그룹 87'%3E%3Cpath data-name='Icon ionic-ios-settings' d='M62.055 36.549a7.862 7.862 0 0 1 5.045-7.335 31.164 31.164 0 0 0-3.771-9.085 7.968 7.968 0 0 1-3.2.684 7.845 7.845 0 0 1-7.176-11.042A31.07 31.07 0 0 0 43.884 6a7.855 7.855 0 0 1-14.67 0 31.164 31.164 0 0 0-9.085 3.771 7.845 7.845 0 0 1-7.176 11.042 7.708 7.708 0 0 1-3.2-.684A31.853 31.853 0 0 0 6 29.23a7.86 7.86 0 0 1 .016 14.67 31.164 31.164 0 0 0 3.771 9.085 7.848 7.848 0 0 1 10.358 10.358 31.346 31.346 0 0 0 9.085 3.771 7.841 7.841 0 0 1 14.638 0 31.164 31.164 0 0 0 9.085-3.771 7.856 7.856 0 0 1 10.359-10.358 31.345 31.345 0 0 0 3.77-9.085 7.9 7.9 0 0 1-5.027-7.351zM36.692 49.262a12.729 12.729 0 1 1 12.729-12.729 12.725 12.725 0 0 1-12.729 12.729z' transform='translate(-6 6.871)' style='fill:%23ddf0f9'/%3E%3Cpath data-name='Icon ionic-ios-settings' d='M42.4 25.839a5.106 5.106 0 0 1 3.275-4.763 20.238 20.238 0 0 0-2.449-5.9 5.174 5.174 0 0 1-2.077.444 5.094 5.094 0 0 1-4.66-7.171A20.177 20.177 0 0 0 30.6 6a5.1 5.1 0 0 1-9.527 0 20.238 20.238 0 0 0-5.9 2.449 5.094 5.094 0 0 1-4.66 7.171 5.006 5.006 0 0 1-2.077-.444A20.686 20.686 0 0 0 6 21.086a5.1 5.1 0 0 1 .01 9.527 20.238 20.238 0 0 0 2.449 5.9 5.1 5.1 0 0 1 6.727 6.727 20.357 20.357 0 0 0 5.9 2.449 5.092 5.092 0 0 1 9.506 0 20.239 20.239 0 0 0 5.9-2.449 5.1 5.1 0 0 1 6.727-6.727 20.356 20.356 0 0 0 2.449-5.9 5.13 5.13 0 0 1-3.268-4.774zm-16.47 8.256a8.266 8.266 0 1 1 8.27-8.266 8.264 8.264 0 0 1-8.268 8.266z' transform='translate(80.181 10.855)' style='fill:%23ddf0f9'/%3E%3Cpath data-name='Icon ionic-ios-settings' d='M35.306 21.971a4.11 4.11 0 0 1 2.637-3.835 16.293 16.293 0 0 0-1.971-4.75 4.166 4.166 0 0 1-1.672.358 4.1 4.1 0 0 1-3.752-5.773A16.244 16.244 0 0 0 25.806 6a4.107 4.107 0 0 1-7.67 0 16.293 16.293 0 0 0-4.75 1.971 4.1 4.1 0 0 1-3.752 5.773 4.03 4.03 0 0 1-1.672-.358A16.653 16.653 0 0 0 6 18.145a4.109 4.109 0 0 1 .008 7.67 16.293 16.293 0 0 0 1.971 4.75A4.1 4.1 0 0 1 13.4 35.98a16.388 16.388 0 0 0 4.75 1.971 4.1 4.1 0 0 1 7.653 0 16.293 16.293 0 0 0 4.75-1.971 4.107 4.107 0 0 1 5.415-5.415 16.388 16.388 0 0 0 1.971-4.75 4.13 4.13 0 0 1-2.633-3.844zm-13.26 6.646a6.655 6.655 0 1 1 6.654-6.654 6.653 6.653 0 0 1-6.654 6.655z' transform='translate(48.54 -6)' style='fill:%23ddf0f9'/%3E%3C/g%3E%3C/g%3E%3Cg data-name='Icon ionic-ios-construct'%3E%3Cpath data-name='패스 199' d='M26.719 4.528z' transform='translate(51.305 64.036)' style='fill:%23198ee8'/%3E%3Cpath data-name='패스 200' d='M30.991 4.482a8.508 8.508 0 0 0-4.369-1.107 14.209 14.209 0 0 0-5.383 1.061 28.99 28.99 0 0 0-9.349 6.041 27.46 27.46 0 0 0-2.64 3.066c-.7 1 .219 2.421-.7 3.343s-2.847 0-2.847 0a.609.609 0 0 0-.45.184l-3.934 3.908a.626.626 0 0 0 0 .9l7.32 7.274a.628.628 0 0 0 .45.184.609.609 0 0 0 .45-.184l3.827-4.012a.626.626 0 0 0 0-.9s-.611-.6-1.395-1.383.092-2.225.611-2.7a3.546 3.546 0 0 1 2.432-.784 4.54 4.54 0 0 1 1.314.207c1.406.392 2.974 1.833 5.868 4.7l-.45.749a1 1 0 0 0 .15 1.2s-.576-.565 1.51 1.51L29.17 22.3c-2.2-2.179-1.672-1.625-1.672-1.625a1.054 1.054 0 0 0-.726-.265 1.032 1.032 0 0 0-.484.115l-.646.346c-3.228-3.2-4.069-4.634-3.954-7.113.127-2.582 1.418-4.277 3.516-6.075 2.847-2.432 6.986-1.752 6.986-1.752.922-.008-.484-.988-1.199-1.449z' transform='translate(34.94 63.299)' style='fill:%23198ee8'/%3E%3Cpath data-name='패스 201' d='M40.519 33.32s-7.943-6.593-15.009-13.337l-5.5 5.833c6.745 6.984 13.246 14.709 13.246 14.709a.628.628 0 0 0 .45.184.609.609 0 0 0 .45-.184l6.352-6.306a.637.637 0 0 0 .011-.899z' transform='translate(47.016 73.92)' style='fill:%23198ee8'/%3E%3Cpath data-name='패스 202' d='m51.622 12.272-6.041 6.064-5.891-1.072-1.061-5.891 6.042-6.063a6.7 6.7 0 0 0-4.5-1.914 1.47 1.47 0 0 0-.231.012 11.025 11.025 0 0 0-6.9 3.423c-2.306 2.432-4.738 6.986-2.582 12.023a1.826 1.826 0 0 1-.311 2.271c-.173.161-1.141 1.084-2.594 2.455-.415.392-.853.807-1.337 1.268-.922.876-1.971 1.867-3.089 2.9-.438.415-.888.83-1.337 1.268C15.218 35.224 7.16 42.8 7.16 42.8a4.852 4.852 0 0 0-.012 7.009 5.164 5.164 0 0 0 3.608 1.476 4.413 4.413 0 0 0 3.4-1.51s7.551-8.046 13.753-14.629c.427-.461.853-.9 1.268-1.349 1.072-1.141 2.075-2.2 2.974-3.147.45-.484.876-.934 1.268-1.337 1.326-1.406 2.225-2.352 2.421-2.536a1.784 1.784 0 0 1 1.28-.588 2.217 2.217 0 0 1 .991.277 8.1 8.1 0 0 0 3.735.842 12.4 12.4 0 0 0 8.311-3.4 10.686 10.686 0 0 0 3.412-6.917 6.324 6.324 0 0 0-1.947-4.719zm-39.4 34.675a1.614 1.614 0 1 1 0-2.282 1.628 1.628 0 0 1-.001 2.283z' transform='translate(37.837 63.312)' style='fill:%23198ee8'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E%0A",
+    iconClock:
+      "%3Csvg xmlns='http://www.w3.org/2000/svg' width='13.905' height='13.905' viewBox='0 0 13.905 13.905'%3E%3Cg data-name='Icon ionic-md-time'%3E%3Cpath data-name='패스 267' d='M8.821 1.875a6.953 6.953 0 1 0 6.959 6.953 6.95 6.95 0 0 0-6.959-6.953zm.007 12.515a5.562 5.562 0 1 1 5.562-5.562 5.562 5.562 0 0 1-5.562 5.562z' style='fill:%23666' transform='translate(-1.875 -1.875)'/%3E%3Cpath data-name='패스 268' d='M10.23 5.938H9.188v4.172l3.65 2.189.521-.856-3.129-1.855z' transform='translate(-2.93 -2.461)' style='fill:%23666'/%3E%3C/g%3E%3C/svg%3E%0A",
+    iconPerson:
+      "%3Csvg xmlns='http://www.w3.org/2000/svg' width='11.4' height='12.65' viewBox='0 0 11.4 12.65'%3E%3Cg data-name='Icon feather-user'%3E%3Cpath data-name='패스 272' d='M13.333 16.25V15a2.5 2.5 0 0 0-2.5-2.5h-5a2.5 2.5 0 0 0-2.5 2.5v1.25' transform='translate(-2.633 -4.3)' style='fill:none;stroke:%23666;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.4px'/%3E%3Cpath data-name='패스 273' d='M11.667 5a2.5 2.5 0 1 1-2.5-2.5 2.5 2.5 0 0 1 2.5 2.5z' transform='translate(-3.466 -1.8)' style='fill:none;stroke:%23666;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.4px'/%3E%3C/g%3E%3C/svg%3E%0A",
+    iconCheckSmall:
+      "%3Csvg xmlns='http://www.w3.org/2000/svg' width='12.329' height='8.946' viewBox='0 0 12.329 8.946'%3E%3Cpath data-name='Icon feather-check' d='m12.167 4-6.531 6.531-2.969-2.968' transform='translate(-1.252 -2.586)' style='fill:none;stroke:%233289e2;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px'/%3E%3C/svg%3E%0A",
+    iconFinder:
+      "%3Csvg xmlns='http://www.w3.org/2000/svg' width='18' height='18.005' viewBox='0 0 18 18.005'%3E%3Cpath data-name='Icon ionic-ios-search' d='m20.789 19.7-5.006-5.053a7.134 7.134 0 1 0-1.083 1.1l4.973 5.02a.77.77 0 0 0 1.087.028.775.775 0 0 0 .029-1.095zm-10.612-3.9a5.633 5.633 0 1 1 3.984-1.65 5.6 5.6 0 0 1-3.984 1.65z' transform='translate(-3 -2.995)' style='fill:%23#{$color}'/%3E%3C/svg%3E%0A",
+    iconCompany:
+      "%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath data-name='사각형 114' style='fill:none' d='M0 0h24v24H0z'/%3E%3Cpath data-name='패스 151' d='M12 7V3H2v18h20V7zm-2 12H4v-2h6zm0-4H4v-2h6zm0-4H4V9h6zm0-4H4V5h6zm10 12h-8V9h8zm-2-8h-4v2h4zm0 4h-4v2h4z' transform='translate(-1 -1)' style='fill:%23#{$color}'/%3E%3C/svg%3E%0A",
+    iconFace:
+      "%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath data-name='패스 152' d='M0 0h24v24H0z' style='fill:none'/%3E%3Cpath data-name='패스 153' d='M10.25 13A1.25 1.25 0 1 1 9 11.75 1.25 1.25 0 0 1 10.25 13zM15 11.75A1.25 1.25 0 1 0 16.25 13 1.25 1.25 0 0 0 15 11.75zm7 .25A10 10 0 1 1 12 2a10 10 0 0 1 10 10zM10.66 4.12A7.99 7.99 0 0 0 17.5 8a8.346 8.346 0 0 0 1.34-.12A7.99 7.99 0 0 0 12 4a8.346 8.346 0 0 0-1.34.12zM4.42 9.47a8.046 8.046 0 0 0 3.66-4.44 8.046 8.046 0 0 0-3.66 4.44zM20 12a7.88 7.88 0 0 0-.33-2.24 10.306 10.306 0 0 1-2.17.24 10 10 0 0 1-7.76-3.69A10.016 10.016 0 0 1 4 11.86.653.653 0 0 1 4 12a8 8 0 0 0 16 0z' style='fill:%23#{$color}'/%3E%3C/svg%3E%0A",
+    iconTriDown: "%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='6' viewBox='0 0 12 6'%3E%3Cpath data-name='Icon ionic-md-arrow-dropdown' d='m6 9 6 6 6-6z' transform='translate(-6 -9)' style='fill:%23a9b5be'/%3E%3C/svg%3E%0A",
+    iconClose:
+      "%3Csvg xmlns='http://www.w3.org/2000/svg' width='8.951' height='8.948' viewBox='0 0 8.951 8.948'%3E%3Cpath data-name='Icon ionic-ios-close' d='m13.059 12 3.2-3.2A.749.749 0 0 0 15.2 7.744l-3.2 3.2-3.2-3.2A.749.749 0 1 0 7.744 8.8l3.2 3.2-3.2 3.2A.749.749 0 0 0 8.8 16.256l3.2-3.2 3.2 3.2a.749.749 0 1 0 1.056-1.056z' transform='translate(-7.523 -7.526)' style='fill:%23#{$color}'/%3E%3C/svg%3E%0A",
+    iconClampRight:
+      "%3Csvg xmlns='http://www.w3.org/2000/svg' width='13.503' height='23.616' viewBox='0 0 13.503 23.616'%3E%3Cpath data-name='Icon ionic-ios-arrow-forward' d='m20.679 18-8.937-8.93a1.681 1.681 0 0 1 0-2.384 1.7 1.7 0 0 1 2.391 0L24.258 16.8a1.685 1.685 0 0 1 .049 2.327L14.14 29.32a1.688 1.688 0 0 1-2.391-2.384z' transform='translate(-11.246 -6.196)' style='fill:%23#{$color}'/%3E%3C/svg%3E%0A",
+    iconSwiperClamp:
+      "%3Csvg xmlns='http://www.w3.org/2000/svg' width='13.503' height='23.616' viewBox='0 0 13.503 23.616'%3E%3Cpath data-name='Icon ionic-ios-arrow-forward' d='m20.679 18-8.937-8.93a1.681 1.681 0 0 1 0-2.384 1.7 1.7 0 0 1 2.391 0L24.258 16.8a1.685 1.685 0 0 1 .049 2.327L14.14 29.32a1.688 1.688 0 0 1-2.391-2.384z' transform='translate(-11.246 -6.196)' style='fill:%23#{$color}'/%3E%3C/svg%3E%0A",
+    clamp:
+      "%3Csvg xmlns='http://www.w3.org/2000/svg' width='6.668' height='11.663' viewBox='0 0 6.668 11.663'%3E%3Cpath data-name='Icon ionic-ios-arrow-back' d='m9.51 9.959 1.682-1.681 2.731-2.728a.833.833 0 0 0-1.18-1.177l-5 5a.832.832 0 0 0-.024 1.149l5.02 5.031a.833.833 0 0 0 1.18-1.177z' transform='translate(-7.5 -4.129)' style='fill:%23#{$color}'/%3E%3C/svg%3E%0A",
+    clampDouble:
+      "%3Csvg xmlns='http://www.w3.org/2000/svg' width='12.593' height='11.663' viewBox='0 0 12.593 11.663'%3E%3Cpath data-name='Icon ionic-ios-arrow-back' d='m9.51 9.959 1.682-1.681 2.731-2.728a.833.833 0 0 0-1.18-1.177l-5 5a.832.832 0 0 0-.024 1.149l5.02 5.031a.833.833 0 0 0 1.18-1.177z' transform='translate(-1.575 -4.129)' style='fill:%23#{$color}'/%3E%3Cpath data-name='Icon ionic-ios-arrow-back' d='m9.51 9.959 1.682-1.681 2.731-2.728a.833.833 0 0 0-1.18-1.177l-5 5a.832.832 0 0 0-.024 1.149l5.02 5.031a.833.833 0 0 0 1.18-1.177z' transform='translate(-7.5 -4.129)' style='fill:%23#{$color}'/%3E%3C/svg%3E%0A",
+    fileDown:
+      "%3Csvg xmlns='http://www.w3.org/2000/svg' width='11.667' height='14' viewBox='0 0 11.667 14'%3E%3Cpath data-name='Icon ionic-md-download' d='M18.417 9.44h-3.333V4.5h-5v4.94H6.75l5.833 5.76zM6.75 16.852V18.5h11.667v-1.648z' transform='translate(-6.75 -4.5)' style='fill:%23666'/%3E%3C/svg%3E%0A",
+  );
+  $icon: map-get($iconList, $iconName);
+  @return url('data:image/svg+xml;charset=utf8,#{$icon}');
+}
+
+.icon {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: contain;
+  &-error {
+    width: 98px;
+    height: 122px;
+    background-image: icon(iconError, d63a21);
+  }
+  &-serviceChk {
+    width: 125.9px;
+    height: 114.6px;
+    background-image: icon(iconSerViceChk);
+  }
+  &-logo {
+    width: 139.7px;
+    height: 22.8px;
+    background-image: icon(iconLogo);
+  }
+  &-clock {
+    width: 13.9px;
+    height: 13.9px;
+    background-image: icon(iconClock);
+  }
+  &-person {
+    width: 10px;
+    height: 11.3px;
+    background-image: icon(iconPerson);
+  }
+  &-checkS {
+    background-image: icon(iconCheckSmall);
+  }
+  &-finder {
+    width: 18px;
+    height: 18px;
+    background-image: icon(iconFinder, 8eb5d5);
+  }
+  &-company {
+    width: 27.8px;
+    height: 25px;
+    background-image: icon(iconCompany, ffffff);
+    &Gray {
+      background-image: icon(iconCompany, 9c9c9c);
+    }
+  }
+  &-face {
+    width: 24px;
+    height: 24px;
+    background-image: icon(iconFace, ffffff);
+    &Gray {
+      background-image: icon(iconFace, 9c9c9c);
+    }
+  }
+  &-tridown {
+    width: 12px;
+    height: 6px;
+    background-image: icon(iconTriDown);
+  }
+  &-close {
+    width: 9px;
+    height: 8.9px;
+    background-image: icon(iconClose, 000000);
+    &-white {
+      background-image: icon(iconClose, ffffff);
+    }
+  }
+  &-clamp {
+    &Right {
+      &White {
+        background-image: icon(iconClampRight, fff);
+        background-size: 10px 20px;
+        background-position: center center;
+      }
+      &Gray {
+        background-image: icon(iconClampRight, 777);
+        background-size: 10px 20px;
+        background-position: center center;
+      }
+    }
+    &Left {
+      &White {
+        background-image: icon(iconClampRight, fff);
+        background-size: 10px 20px;
+        background-position: center center;
+        transform: rotate(180deg);
+      }
+      &Gray {
+        background-image: icon(iconClampRight, 777);
+        background-size: 10px 20px;
+        background-position: center center;
+        transform: rotate(180deg);
+      }
+    }
+  }
+  &-swiperClamp {
+    &Right {
+      width: 14px;
+      height: 24px;
+      background-image: icon(iconSwiperClamp, 9fabbb);
+      &:hover {
+        background-image: icon(iconSwiperClamp, 63baff);
+      }
+    }
+    &Left {
+      width: 14px;
+      height: 24px;
+      background-image: icon(iconSwiperClamp, 9fabbb);
+      transform: rotate(180deg);
+      &:hover {
+        background-image: icon(iconSwiperClamp, 63baff);
+      }
+    }
+  }
+  &Plus {
+    width: 11px;
+    height: 29px;
+    background-image: icon(iconPlus, 888888);
+  }
+  &.clamp {
+    width: 6.7px;
+    height: 11.7px;
+    padding: 0;
+    background-size: contain !important;
+    background-image: icon(clamp, '444') !important;
+    background-repeat: no-repeat !important;
+    vertical-align: middle !important;
+    &Double {
+      width: 12.6px;
+      height: 11.7px;
+      padding: 0;
+      background-size: contain !important;
+      background-image: icon(clampDouble, '444') !important;
+      background-repeat: no-repeat !important;
+      vertical-align: middle !important;
+    }
+  }
+  &-fileDown {
+    background-image: icon(fileDown);
+  }
+}
+.img {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: contain;
+  &-footerLogo {
+    width: 141.3px;
+    height: 15.5px;
+    background-image: icon(imgFooterLogo);
+  }
+  &-ic {
+    width: 106px;
+    height: 11.7px;
+    background-image: icon(logoIc);
+  }
+}
