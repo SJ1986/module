@@ -4,23 +4,54 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="resource/css/common.css">
     <link rel="shortcut icon" href="resource/image/common/ico/favicon.ico" />
-    <title>Wordncode Coding Guide</title>
+    <!-- custon css -->
+    <link rel="stylesheet" href="resource/css/common.css" />
+    <!-- cdn-link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+
+    <script type="text/javascript" src="./resource/js/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript" src="./resource/js/jquery-ui.js"></script>
+    <script type="text/javascript" src="./resource/js/ui-script.js"></script>
+    <script type="text/javascript" src="./resource/js/swiper.min.js"></script>
+    <script type="text/javascript" src="./resource/js/popper.min.js"></script>
+    <script type="text/javascript" src="./resource/js/slick.js"></script>
+    <script type="text/javascript" src="./resource/js/aos.js"></script>
+    <title>Wordncode Coding Guide 22.09</title>
   </head>
   <body>
     <div class="wrap">
       <header>
-        <h1 class="ui-header-logo">
+        <h1 class="elem-header-logo">
           <a href="javascript:void(0)">
-            <span class="ui-header-logo__img">
-              <img src="resource/image/common/header-logo.png" alt="">
+            <span class="elem-header-logo__img">
+              <img src="resource/image/common/header-logo.png" alt="" />
             </span>
-            <span class="ui-header-logo__title">워드앤코드</span>
+            <span class="elem-header-logo__title">워드앤코드</span>
           </a>
         </h1>
+        <div class="elem-sch-commonWrap d-flex align-center">
+          <div class="elem-sch-common">
+            <label class="d-flex elem-sch-common__label">
+              <input type="text" class="elem-sch-common__input" id="sch-common__input" autocomplete="off" title="검색어입력" placeholder="검색어 입력" />
+              <button type="button" class="elem-sch-common__btn" title="검색">
+                <img src="./resource/image/common/ico/icon_finder_b.png" alt="" />
+              </button>
+            </label>
+          </div>
+        </div>
+        <div id="toggle-btn" class="fas fa-sun elem-modeSwitch"></div>
+        <p class="elem-version-chk">v22.09</p>
       </header>
-      <main></main>
+      <main>
+        <section class="ui-lnb"></section>
+        <section class="ui-article-wrap">
+          <article class="ui-article-item" id="a" style="height: 500px">a</article>
+          <article class="ui-article-item" id="b" style="height: 500px">b</article>
+          <article class="ui-article-item" id="c" style="height: 500px">c</article>
+        </section>
+        <section class="ui-sidebar"></section>
+      </main>
       <footer></footer>
     </div>
   </body>

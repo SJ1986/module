@@ -7,38 +7,76 @@
 @import url('table.css');
 @import url('button.css');
 @import url('form.css');
+@import url('fix.css');
 
 // ** custom css *
 @import url('style.css');
 @import 'mixin';
 @import 'svg';
 
-html{width:100%;height:100%;}
-body{width:100%;height:100%;}
-.wrap{width:100%;height:100%;background-color:#0e0f1c;}
+// ** plugin css *
+@import url('../css/lib/swiper.min.css');
 
-// ** header *
-.ui-header-logo{
-  @include d-flex;
-  padding:0 10px;
-  height:40px;
-  box-sizing:border-box;
-  a{
-    @include d-flex;
-    @include align-center;
-    color:#fff
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #1a1a1a;
+  transition: all 0.2s ease-in-out;
+}
+.wrap {
+  width: 100%;
+  height: 100%;
+}
+
+.d-flex {
+  display: flex;
+}
+.align {
+  &-start {
+    align-items: flex-start;
   }
-  &__img{
-    display:inline-block;
-    width:25px;
-    height:25px;
-    img{width:100%;}
+  &-center {
+    align-items: center;
   }
-  &__title{
-    margin-left:5px;
-    font-size:15px;
-    font-weight:600;
+  &-end {
+    align-items: flex-end;
   }
 }
-// ** content *
-// ** footer *
+.justify {
+  &-between {
+    justify-content: space-between;
+  }
+  &-center {
+    justify-content: center;
+  }
+}
+
+// ** header * //
+header {
+  @include position($p: fixed, $t: 0, $l: 0);
+  @include d-flex;
+  @include align-center;
+  width: 100%;
+  border-bottom: 1px solid hsl(0deg 0% 100% / 9%);
+  transition: all 0.2s ease-in-out;
+  &.scroll-up {
+    border-bottom: 1px solid hsla(0deg, 0%, 100%, 0.09);
+  }
+  &.scroll-down {
+    border-bottom: 3px solid #555;
+  }
+}
+// ** content * //
+main {
+}
+// ** footer * //

@@ -1,0 +1,198 @@
+/** darkMode */
+body.light {
+  background-color: #fff;
+}
+
+.elem-header-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 10px;
+  height: 40px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.elem-header-logo a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #fff;
+}
+.elem-header-logo__img {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+}
+.elem-header-logo__img img {
+  width: 100%;
+}
+.elem-header-logo__title {
+  margin-left: 5px;
+  font-size: 15px;
+  font-weight: 600;
+}
+.elem-sch-commonWrap {
+  margin-left: auto;
+}
+.elem-sch-common__label {
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 30px;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 4px;
+  border: none;
+  background-color: #333;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.elem-sch-common__label.elem-sch-hover input {
+  width: 120px;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.elem-sch-common__label.elem-sch-hover button {
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.elem-sch-common__input {
+  width: 0;
+  height: 100%;
+  font-size: 13px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.elem-sch-common__input::-webkit-input-placeholder {
+  font-size: 11px;
+  color: #c2c2c2;
+}
+.elem-sch-common__input::-moz-placeholder {
+  font-size: 11px;
+  color: #c2c2c2;
+}
+.elem-sch-common__input:-ms-input-placeholder {
+  font-size: 11px;
+  color: #c2c2c2;
+}
+.elem-sch-common__input::-ms-input-placeholder {
+  font-size: 11px;
+  color: #c2c2c2;
+}
+.elem-sch-common__input::placeholder {
+  font-size: 11px;
+  color: #c2c2c2;
+}
+.elem-sch-common__input:focus::-webkit-input-placeholder {
+  color: #333;
+}
+.elem-sch-common__input:focus::-moz-placeholder {
+  color: #333;
+}
+.elem-sch-common__input:focus:-ms-input-placeholder {
+  color: #333;
+}
+.elem-sch-common__input:focus::-ms-input-placeholder {
+  color: #333;
+}
+.elem-sch-common__input:focus::placeholder {
+  color: #333;
+}
+.elem-sch-common__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 30px;
+  height: 100%;
+  background-color: #333;
+  border: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.elem-sch-common__btn img {
+  width: 17px;
+  margin: 0 auto;
+  -webkit-filter: invert(0.6);
+          filter: invert(0.6);
+}
+.elem-version-chk {
+  margin: 0 15px;
+  color: #c2c2c2;
+  font-size: 11px;
+}
+.elem-modeSwitch {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-color: #333;
+  margin-left: 15px;
+  border-radius: 100%;
+  line-height: 29px !important;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+.elem-modeSwitch::before {
+  font-size: 15px;
+  color: #999;
+}
+.elem-modeSwitch:hover {
+  background-color: #fff;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+.elem-modeSwitch:hover::before {
+  color: #333;
+}
+
+.light header {
+  border-bottom: 1px solid #ddd;
+}
+.light header.scroll-up {
+  border-bottom: 1px solid #ddd;
+}
+.light header.scroll-down {
+  border-bottom: 3px solid #ddd;
+}
+.light .elem-header-logo a {
+  color: #000;
+}
+.light .elem-sch-common__label {
+  background-color: #fff;
+  border: 1px solid #999;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.light .elem-sch-common__input {
+  background-color: #fff;
+  color: #000;
+}
+.light .elem-sch-common__btn {
+  background-color: #fff;
+}
+.light .elem-modeSwitch {
+  background-color: #777;
+}
+.light .elem-modeSwitch::before {
+  color: #fff;
+}
+.light .elem-modeSwitch:hover {
+  background-color: #000;
+}
+.light .elem-version-chk {
+  color: #333;
+}
